@@ -15,6 +15,7 @@ Arcade Vault (`arcade-vauld`) — a platform for playing games online and compet
 
 There is no test suite configured yet.
 
+
 ## Architecture
 
 - Next.js 16 App Router, React 19, TypeScript (strict mode), Tailwind CSS v4.
@@ -22,6 +23,13 @@ There is no test suite configured yet.
 - Tailwind is wired through the Turbopack loader in `next.config.ts` (`@tailwindcss/turbopack` applied to `*.css`), not a standalone PostCSS config. Global styles/theme tokens are in `app/globals.css` using Tailwind's `@theme inline` block.
 - `next.config.ts` enables `experimental.agentFeedback`, `cacheComponents`, and `partialPrefetching` — these are newer/experimental Next.js flags, so APIs and conventions may diverge from older Next.js knowledge. Check `node_modules/next/dist/docs/` for the installed version's actual behavior before relying on cached assumptions.
 - Path alias `@/*` maps to the repo root (see `tsconfig.json`).
+
+
+
+## Skills
+usa siempre la skill de /frontend-desing para realizar interfaces de usuario
+
+
 
 ## Spec-driven workflow
 
