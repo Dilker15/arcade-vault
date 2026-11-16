@@ -11,7 +11,7 @@ function HallOfFame({ user, navigate }) {
   return (
     <div className="av-hall fade-in">
       <div className="hall-head">
-        <h1>SALÓNES DE LAS FAMAS</h1>
+        <h1>SALÓN DE LA FAMA ARCADE</h1>
         <p className="pixel" style={{ fontSize: 10 }}>LOS NOMBRES QUE NUNCA SE BORRAN DE LA PANTALLA</p>
       </div>
 
