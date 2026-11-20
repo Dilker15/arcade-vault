@@ -15,12 +15,12 @@ export default function AuthPage() {
   const submit = (e: FormEvent) => {
     e.preventDefault();
     login((user || "PLAYER1").toUpperCase().slice(0, 10));
-    router.push("/");
+    router.push("/biblioteca");
   };
 
   const playAsGuest = () => {
     logout();
-    router.push("/");
+    router.push("/biblioteca");
   };
 
   return (
