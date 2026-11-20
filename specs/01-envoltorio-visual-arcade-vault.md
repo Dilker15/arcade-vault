@@ -1,6 +1,6 @@
 # SPEC 01 — Envoltorio visual de Arcade Vault
 
-> **Status:** aprovado
+> **Status:** implemented
 > **Depends on:** —
 > **Date:** 2026-11-16
 > **Objective:** Portar las 5 pantallas de `references/templates/` (biblioteca, detalle, reproductor, autenticación, salón de la fama) a rutas reales de Next.js App Router, manteniendo el aspecto y la interacción tal cual el original pero sin implementar ninguna mecánica de juego real.
