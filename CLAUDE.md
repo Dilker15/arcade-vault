@@ -26,6 +26,11 @@ There is no test suite configured yet.
 
 
 
+## Screenshots (Playwright MCP)
+
+All Playwright screenshots for this project go in `.playwright-screenshots/` at the repo root. When calling `browser_take_screenshot`, always pass `filename` as an absolute path inside that folder, e.g. `/Users/dilkercartagena/Desktop/claude-code/05-arcade-vauld/.playwright-screenshots/home-full.png`. The MCP server's default output dir is `.playwright-mcp/`, so leaving `filename` out — or giving it a bare name — puts the file in the wrong place.
+
+
 ## Skills
 usa siempre la skill de /frontend-desing para realizar interfaces de usuario
 
